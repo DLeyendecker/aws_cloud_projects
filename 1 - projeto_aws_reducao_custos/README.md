@@ -23,6 +23,9 @@ Recomenda-se a continuidade da utilização das ferramentas implementadas e a bu
 
 Anexos
 Documento de migração de dados para o Amazon S3
+
 Manual de utilização do Amazon EC2
+
 Relatório de desempenho do Amazon CloudFront
+
 Assinatura do Responsável pelo Projeto: Davi Leyendecker
