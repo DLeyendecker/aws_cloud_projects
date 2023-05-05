@@ -30,7 +30,7 @@ Objetivo: rastreamento de atividades em conta AWS, permitindo a detecção de at
 Resultado esperado: melhoria na detecção e resposta a ameaças e incidentes de segurança.
 
 ## Conclusão
-A implementação de ferramentas na empresa Abstergo Industries tem como esperado aumentar a segurança da empresa, reduzindo os riscos de ataques cibernéticos e perda de dados. Além disso, as ferramentas implementadas contribuirão para melhorar a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+Em resumo, a implementação das medidas de segurança usando serviços da AWS na empresa Abstergo Industries representa um importante avanço na proteção contra ataques cibernéticos e na prevenção da perda de dados. As ferramentas implementadas também trarão melhorias significativas na eficiência e produtividade da empresa, permitindo que a equipe se concentre em outras prioridades importantes. Recomendamos que a empresa continue utilizando as ferramentas implementadas e explore novas tecnologias para aprimorar ainda mais seus processos de segurança. Com isso, a Abstergo Industries estará em melhores condições de lidar com as ameaças cada vez mais sofisticadas do mundo digital atual.
 
 ## Anexos
 
