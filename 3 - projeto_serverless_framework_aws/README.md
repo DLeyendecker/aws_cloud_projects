@@ -1,4 +1,4 @@
-Este projeto do GitHub foi proposto pelo Bootcamp AWS da DIO e teve como objetivo criar uma infraestrutura serverless para executar um sistema CRUD simples com a Amazon AWS. Foi utilizado o Serverless Framework e CloudFormation, juntamente com NodeJS, para automatizar a criação de outros serviços, como o API Gateway, funções Lambda, tabelas DynamoDB e políticas de acesso necessárias.
+Este projeto teve como objetivo criar uma infraestrutura serverless para executar um sistema CRUD simples com a Amazon AWS. Foi utilizado o Serverless Framework e CloudFormation, juntamente com NodeJS, para automatizar a criação de outros serviços, como o API Gateway, funções Lambda, tabelas DynamoDB e políticas de acesso necessárias.
 
 Embora a lógica do CRUD e o NodeJS não tenham apresentado problemas, a função de inserção começou a apresentar problemas. A solicitação foi realizada corretamente, mas o item não estava sendo registrado na tabela DynamoDB. O principal problema foi identificado como sendo a permissão de gravação no DynamoDB que não estava funcionando, apesar de ser definida no serverless.yml.
 
