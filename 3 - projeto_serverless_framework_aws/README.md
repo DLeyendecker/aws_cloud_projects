@@ -1,6 +1,6 @@
 # API Node.js com Serverless Framework em ambiente AWS
 
-Neste projeto vamos criar uma infraestrutra em nuvem AWS com API Gateway, DynamoDB, AWS Lambda e AWS CloudFormation utilizando o framework Serverless para o desenvolvimento baseada em Infraestrutura as a Code.
+Neste projeto, será criada uma infraestrutura em nuvem AWS utilizando o API Gateway, DynamoDB, AWS Lambda e AWS CloudFormation, com o auxílio do framework Serverless para o desenvolvimento baseado em Infraestrutura as a Code.
 
 ## Etapas
 
@@ -25,10 +25,10 @@ $ serverless
 Login/Register: No
 Update: No
 Type: Node.js REST API
-Name: dio-live
+Name: serverless-project
 ```
 ```
-$ cd dio-live
+$ cd serverless-project
 $ code .
 ``` 
 - No arquivo ```serverless.yml``` adicionar a região ```region: us-east-1``` dentro do escopo de ```provider:```
@@ -36,7 +36,7 @@ $ code .
 
 #### Estruturar o código
 
-- Criar o diretório "src" e mover o arquivo "handler.js" para dentro dele
+- Criar o diretório "src" e mover o arquivo "handler.js" para o diretório
 - Renomear o arquivo "handler.js" para "hello.js"
 - Atualizar o código 
 ```
@@ -85,7 +85,7 @@ resources:
                 - dynamodb:GetItem
                 - dynamodb:Scan
               Resource:
-                - arn:aws:dynamodb:us-east-1:167880115321:table/ItemTable
+                - arn:aws:dynamodb:us-east-1:317951389820:table/ItemTable
   ```
   
    - Instalar dependências
